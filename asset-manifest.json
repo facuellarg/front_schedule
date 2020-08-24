@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/front_schedule/static/css/main.eb7a2f96.chunk.css",
+    "main.js": "/front_schedule/static/js/main.b615b1f1.chunk.js",
+    "main.js.map": "/front_schedule/static/js/main.b615b1f1.chunk.js.map",
+    "runtime-main.js": "/front_schedule/static/js/runtime-main.602ff275.js",
+    "runtime-main.js.map": "/front_schedule/static/js/runtime-main.602ff275.js.map",
+    "static/js/2.2d110dee.chunk.js": "/front_schedule/static/js/2.2d110dee.chunk.js",
+    "static/js/2.2d110dee.chunk.js.map": "/front_schedule/static/js/2.2d110dee.chunk.js.map",
+    "index.html": "/front_schedule/index.html",
+    "precache-manifest.b7135d92792199368e2c2f03be2a2d49.js": "/front_schedule/precache-manifest.b7135d92792199368e2c2f03be2a2d49.js",
+    "service-worker.js": "/front_schedule/service-worker.js",
+    "static/css/main.eb7a2f96.chunk.css.map": "/front_schedule/static/css/main.eb7a2f96.chunk.css.map",
+    "static/js/2.2d110dee.chunk.js.LICENSE.txt": "/front_schedule/static/js/2.2d110dee.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/front_schedule/static/media/ancizar_sans-light-webfont.f9519dbd.svg",
+    "static/media/background.jpg": "/front_schedule/static/media/background.e41beee1.jpg",
+    "static/media/gif1.gif": "/front_schedule/static/media/gif1.466d4d99.gif",
+    "static/media/gif2.gif": "/front_schedule/static/media/gif2.e8d37521.gif",
+    "static/media/gif3.gif": "/front_schedule/static/media/gif3.bd9adc7c.gif",
+    "static/media/gif4.gif": "/front_schedule/static/media/gif4.a293743b.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.602ff275.js",
+    "static/js/2.2d110dee.chunk.js",
+    "static/css/main.eb7a2f96.chunk.css",
+    "static/js/main.b615b1f1.chunk.js"
+  ]
+}
