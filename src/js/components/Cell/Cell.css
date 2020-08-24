@@ -1,0 +1,21 @@
+.cell-container{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    overflow: hidden;
+    /* font-size:1em; */
+    /* background: rgb(219,219,219);
+    background: linear-gradient(180deg, rgba(219,219,219,0.8631827731092436) 0%, rgba(177,170,170,0.3) 64%); */
+    text-align: center;
+    -webkit-box-shadow: 6px -4px 5px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: 6px -4px 5px 0px rgba(0,0,0,0.18);
+    box-shadow: 6px -4px 5px 0px rgba(0,0,0,0.18)
+    /* padding:0px; */
+    /* margin: 5px; */
+
+}
+.cell-container >span{
+    color:white
+}

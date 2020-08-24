@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Ancisar";
+    src: url("./../fonts/ancizar_sans-light-webfont.eot");
+    src: url("./../fonts/ancizar_sans-light-webfont.woff") format("woff"),
+    url("./../fonts/ancizar_sans-light-webfont.ttf") format("opentype"),
+    url("./../fonts/ancizar_sans-light-webfont.svg") format("svg");
+}
+body{
+    font-family: 'Ancisar', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    padding:0px;
+    margin:0px;
+}

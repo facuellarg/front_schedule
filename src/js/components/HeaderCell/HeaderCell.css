@@ -1,0 +1,9 @@
+.header_cell{
+        height: 100%;
+        /* background: rgb(219,219,219);
+        background: linear-gradient(180deg, rgba(219,219,219,0.1) 10%, rgba(177,170,170,0.4) 64%); */
+        text-align: center;
+        /* border: 1px solid; */
+        color:white;
+        /* border-bottom: 2px solid  rgba(219,219,219,0.9); */
+}
