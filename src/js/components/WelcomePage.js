@@ -10,8 +10,9 @@ import TextField from '@material-ui/core/TextField';
 import Link from '@material-ui/core/Link';
 import Box from '@material-ui/core/Box';
 import Typography from '@material-ui/core/Typography';
-import { makeStyles } from '@material-ui/core/styles';
+import { makeStyles, createMuiTheme,ThemeProvider } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
+import {blueGrey} from '@material-ui/core/colors'
 
 function Copyright() {
   return (
@@ -47,6 +48,11 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+const theme = createMuiTheme({
+  palette: {
+    primary: blueGrey
+  }
+});
 
 
 
@@ -129,6 +135,9 @@ const WelcomePage = (props)=>{
                 return (
                     <div className='panel-container-w'> 
                 {/* <button onClick={()=>set_show_background(!show_background)}>{show_background?'quitar fondo':'poner fondo'}</button> */}
+                    
+                    <Panel schedule={schedule} background={show_background} cell_colored={cell_colored}></Panel>
+                    < ThemeProvider theme={theme}>
                       <Button
                         disabled={loading}
                         fullWidth
@@ -147,8 +156,7 @@ const WelcomePage = (props)=>{
                           >
                         {cell_colored?'Quitar Color Celdas':'Poner color Celdas'}
                         </Button>
-             
-                    <Panel schedule={schedule} background={show_background} cell_colored={cell_colored}></Panel>
+                      </ThemeProvider>
                     </div>
      
                 );
@@ -172,6 +180,7 @@ const WelcomePage = (props)=>{
                         Horario UNAL
                     </Typography>
                     <form className={classes.form} noValidate>
+                    < ThemeProvider theme={theme}>
                         <TextField
                         variant="outlined"
                         margin="normal"
@@ -205,6 +214,7 @@ const WelcomePage = (props)=>{
                         >
                         Cargar mi Horario
                         </Button>
+                        </ThemeProvider>
                     </form>
                     </div>
                     <Box mt={8}>
